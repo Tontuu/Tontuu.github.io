@@ -318,7 +318,12 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.95) 0px 5px 15px;
+  border: solid hsl(190,450%,45%) 3px;
+}
+
+.avatar-box img {
+    border-radius: 25px;
 }
 
 .info-content .name {
@@ -987,7 +992,7 @@ main {
 
 .project-img img {
   width: 100%;
-  height: 100%;
+  height: 200px;
   object-fit: cover;
   transition: var(--transition-1);
 }
@@ -1190,6 +1195,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   z-index: -1;
   transition: var(--transition-1);
 }
+
+ion-icon { pointer-events: none; }
 
 .form-btn ion-icon { font-size: 16px; }
 
@@ -1837,6 +1844,11 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .contacts-list { grid-template-columns: 1fr; }
+
+  .contact-link {
+    color: inherit;
+    text-decoration:none;
+  }
 
   .contact-info :is(.contact-link) {
     white-space: nowrap;
