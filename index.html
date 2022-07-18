@@ -42,7 +42,9 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="https://cdn.discordapp.com/avatars/631270072001757204/0c1a7011da2d259a564f824171503977.png" alt="Ton" width="80">
+          <img src=
+	       "https://cdn.discordapp.com/avatars/631270072001757204/0c1a7011da2d259a564f824171503977.png"
+	       alt="Ton" width="80">
         </figure>
 
         <div class="info-content">
@@ -66,14 +68,26 @@
         <ul class="contacts-list">
 
           <li class="contact-item">
+            <div class="icon-box">
+	      <span class="iconify" data-icon="icon-park-outline:edit-name"></span>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Name</p>
+              <a href="#" class="contact-link">Cleiton Dos Santos S.</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
 
             <div class="icon-box">
-              <a/href="mailto:my_eleanor.ton@pm.me" class="contact-link"><ion-icon name="mail-outline"></ion-icon></a>
+              <a/href="mailto:my_eleanor.ton@pm.me" class="contact-link">
+		<span class="iconify" data-icon="ant-design:mail-outlined"></span>
+	      </a>
             </div>
 
             <div class="contact-info">
               <p class="contact-title">Email</p>
-
               <a href="mailto:my_eleanor.ton@pm.me" class="contact-link">my_eleanor.ton@pm.me</a>
             </div>
 
@@ -82,26 +96,11 @@
           <li class="contact-item">
 
             <div class="icon-box">
-              <a href="#" class="contact-link"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></a>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Discord</p>
-
-              <a href="#" class="contact-link">Ton#1639</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
+	      <span class="iconify" data-icon="akar-icons:calendar"></span>
             </div>
 
             <div class="contact-info">
               <p class="contact-title">Birthday</p>
-
               <time datetime="1998-06-23">June 15, 2005</time>
             </div>
 
@@ -110,7 +109,7 @@
           <li class="contact-item">
 
             <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
+	      <span class="iconify" data-icon="akar-icons:location"></span>
             </div>
 
             <div class="contact-info">
@@ -129,23 +128,22 @@
 
           <li class="social-item">
             <a href="#" class="social-link">
-              <ion-icon name="logo-discord"></ion-icon>
+	      <span class="iconify" data-icon="cib:discord"></span>
             </a>
           </li>
 
           <li class="social-item">
             <a href="#" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
+	      <span class="iconify" data-icon="akar-icons:github-fill"></span>
             </a>
           </li>
 
-	  <!-- TODO: Find a new social item -->
 
-          <!-- <li class="social-item"> -->
-          <!--   <a href="#" class="social-link"> -->
-          <!--     <ion-icon name="logo-twitter"></ion-icon> -->
-          <!--   </a> -->
-          <!-- </li> -->
+          <li class="social-item">
+            <a href="#" class="social-link">
+	      <span class="iconify" data-icon="akar-icons:telegram-fill"></span>
+            </a>
+          </li>
 
         </ul>
 
@@ -1113,8 +1111,11 @@
   <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> -->
+  <!-- <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> -->
+
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
 
 </body>
 

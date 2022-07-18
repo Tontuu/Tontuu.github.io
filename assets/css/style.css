@@ -348,7 +348,7 @@ main {
   position: absolute;
   top: -15px;
   right: -15px;
-  border-radius: 0 15px;
+  border-radius:60 15px;
   font-size: 13px;
   color: var(--orange-blue-crayola);
   background: var(--border-gradient-onyx);
@@ -402,7 +402,7 @@ main {
 
 .contact-info {
   max-width: calc(100% - 46px);
-  width: calc(100% - 46px);
+  width: calc(100% - 26px);
 }
 
 .contact-title {
@@ -1283,7 +1283,7 @@ ion-icon { pointer-events: none; }
   .sidebar, article {
     width: 520px;
     margin-inline: auto;
-    padding: 30px;
+    padding: 25px;
   }
 
   .article-title {
@@ -1297,8 +1297,8 @@ ion-icon { pointer-events: none; }
   }
 
   .icon-box {
-    width: 48px;
-    height: 48px;
+    width: 38px;
+    height: 38px;
     border-radius: 12px;
     font-size: 18px;
   }
@@ -1355,8 +1355,8 @@ ion-icon { pointer-events: none; }
   .contacts-list { gap: 20px; }
 
   .contact-info {
-    max-width: calc(100% - 64px);
-    width: calc(100% - 64px);
+    max-width: calc(100% - 44px);
+    width: calc(100% - 44px);
   }
 
 
@@ -1595,7 +1595,7 @@ ion-icon { pointer-events: none; }
 
   .filter-select-box { display: none; }
 
-  .filter-list {
+  .filter-list2{
     display: flex;
     justify-content: flex-start;
     align-items: center;
