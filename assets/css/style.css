@@ -1751,7 +1751,6 @@ li a {
     cursor: pointer;
 }
 
-
 li a .copy-element {
     color: #fff;
     display: flex;
@@ -1759,22 +1758,20 @@ li a .copy-element {
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: -32px;
-    margin-left: -15px;
-    width: 50px;
-    height: auto;
-    font-size: 0.5rem;
-    background: var(--bg-gradient-onyx);
+    margin-left: -16px;
+    font-size: 11px;
     padding: 5px;
     border-radius: 4px;
     opacity: 0;
     transition: 0.2s;
+    background: var(--bg-gradient-onyx);
 }
 
 li a .copy-element:after {
     position: absolute;
     content: "";
     background: var(--bg-gradient-onyx);
-    width: 10px;
+    width: 8px;
     height: 10px;
     top: 20px;
     right: 21px;
@@ -1783,11 +1780,9 @@ li a .copy-element:after {
 
 li a .copy-element.active {
     opacity: 1;
-    transform: translateX(0px) translateY(-20%) ;
-    transition: 0.1s;
+    transform: translateY(-20%) ;
+    transition: 0.2s;
 }
-
-
 
 /**
  * responsive larger than 1250px screen
