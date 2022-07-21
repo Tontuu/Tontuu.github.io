@@ -157,3 +157,15 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+function discordCopy(tag) {
+    const copyElement = document.querySelector(".copy-element");
+    const copyText = document.querySelector(".copy-text");
+    copyElement.classList.add("active");
+    navigator.clipboard.writeText(tag);
+
+    setTimeout(() => {
+	copyElement.classList.remove("active");
+    }, 2500);
+}
+
