@@ -1882,11 +1882,6 @@ li a .copy-element.active {
 
   .contacts-list { grid-template-columns: 1fr; }
 
-  .contact-link {
-    color: inherit;
-    text-decoration:none;
-  }
-
   .contact-info :is(.contact-link) {
     white-space: nowrap;
     overflow: hidden;
