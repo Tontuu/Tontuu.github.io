@@ -1360,7 +1360,6 @@ ion-icon { pointer-events: none; }
   }
 
 
-
   /**
    * #NAVBAR
    */
@@ -1748,7 +1747,45 @@ ion-icon { pointer-events: none; }
 
 }
 
+li a {
+    cursor: pointer;
+}
 
+
+li a .copy-element {
+    color: #fff;
+    display: flex;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: -32px;
+    margin-left: -15px;
+    width: 50px;
+    height: auto;
+    font-size: 0.5rem;
+    background: var(--bg-gradient-onyx);
+    padding: 5px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+li a .copy-element:after {
+    position: absolute;
+    content: "";
+    background: var(--bg-gradient-onyx);
+    width: 10px;
+    height: 10px;
+    top: 20px;
+    right: 21px;
+    transform: rotate(45deg);
+}
+
+li a .copy-element.active {
+    opacity: 1;
+    transform: translateX(0px) translateY(-20%) ;
+    transition: 0.1s;
+}
 
 
 
