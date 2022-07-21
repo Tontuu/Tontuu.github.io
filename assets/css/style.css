@@ -317,13 +317,10 @@ main {
 }
 
 .avatar-box {
-  background: var(--bg-gradient-onyx);
-  box-shadow: rgba(0, 0, 0, 0.95) 0px 5px 15px;
-  border: solid hsl(190,450%,45%) 3px;
-}
-
-.avatar-box img {
-    border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.95) 0px 10px 15px;
+  border: solid hsl(220, 100%, 69%) 0.15em;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .info-content .name {
