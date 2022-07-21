@@ -224,6 +224,8 @@ article.active {
 
 .h4 { font-size: var(--fs-4); }
 
+.h4-text { margin-bottom: var(--padding-1); }
+
 .h5 {
   font-size: var(--fs-7);
   font-weight: var(--fw-500);
@@ -231,6 +233,9 @@ article.active {
 
 .article-title {
   position: relative;
+  margin-bottom: 20px;
+  font-weight: var(--fw-600);
+  padding-bottom: var(--padding-1);
 }
 
 .article-title::after {
@@ -632,17 +637,7 @@ li a .copy-element.active {
     padding: 25px;
   }
 
-  .article-title {
-    font-weight: var(--fw-600);
-    padding-bottom: var(--padding-1);
-    margin-bottom: 20px
-  }
 
-  .article-title::after {
-    width: 40px;
-    height: 4px;
-    margin-top: var(--padding-1);
-  }
 
   .icon-box {
     width: 38px;
