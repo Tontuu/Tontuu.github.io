@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ton</title>
+      <!--
+         - favicon
+         -->
+      <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+      <!--
+         - custom css link
+         -->
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <!--
+         - google font link
+         -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <!--
+         - #MAIN
+         -->
+      <main>
+         <!--
+            - #SIDEBAR
+            -->
+         <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+               <figure class="avatar-box">
+                  <img src=
+                     "https://cdn.discordapp.com/avatars/631270072001757204/0c1a7011da2d259a564f824171503977.png"
+                     alt="Ton" width="80">
+               </figure>
+               <div class="info-content">
+                  <h1 class="name" title="">Ton</h1>
+                  <p class="title">Future software engineer</p>
+               </div>
+               <button class="info_more-btn" data-sidebar-btn>
+                  <span>Show more</span>
+                  <ion-icon name="chevron-down"></ion-icon>
+               </button>
+            </div>
+            <div class="sidebar-info_more">
+               <div class="separator"></div>
+               <ul class="contacts-list">
+                  <li class="contact-item">
+                     <div class="icon-box">
+                        <span class="iconify" data-icon="icon-park-outline:edit-name"></span>
+                     </div>
+                     <div class="contact-info">
+                        <p class="contact-title">Name</p>
+                        <p class="contact-link">Cleiton Dos Santos S.</p>
+                     </div>
+                  </li>
+                  <li class="contact-item">
+                     <div class="icon-box">
+                        <span class="iconify" data-icon="ant-design:mail-outlined"></span>
+                     </div>
+                     <div class="contact-info">
+                        <address>
+                           <p class="contact-title">Email</p>
+                           <a href="mailto:my_eleanor.ton@pm.me"><span class="contact-link">my_eleanor.ton@pm.me</span></a>
+                        </address>
+                     </div>
+                  </li>
+                  <li class="contact-item">
+                     <div class="icon-box">
+                        <span class="iconify" data-icon="akar-icons:calendar"></span>
+                     </div>
+                     <div class="contact-info">
+                        <p class="contact-title">Birthday</p>
+                        <time datetime="2005-06-15">June 15, 2005</time>
+                     </div>
+                  </li>
+                  <li class="contact-item">
+                     <div class="icon-box">
+                        <span class="iconify" data-icon="akar-icons:location"></span>
+                     </div>
+                     <div class="contact-info">
+                        <p class="contact-title">Location</p>
+                        <address>
+                           <p>Sao Paulo, SP, Brazil</p>
+                        </address>
+                     </div>
+                  </li>
+               </ul>
+               <div class="separator"></div>
+               <ul class="social-list">
+                  <li class="social-item">
+                     <a class="social-link">
+                        <div class="copy-element">
+                           <span class="copy-text">Copied</span>
+                        </div>
+                        <span class="iconify" onclick="discordCopy('#Ton1639')" data-icon="cib:discord"></span>
+                     </a>
+                  </li>
+                  <li class="social-item">
+                     <a href="https://github.com/Tontuu/" target="blanket" class="social-link">
+                     <span class="iconify" data-icon="akar-icons:github-fill"></span>
+                     </a>
+                  </li>
+                  <li class="social-item">
+                     <a href="https://t.me/tontuu" target="blanket" class="social-link">
+                     <span class="iconify" data-icon="akar-icons:telegram-fill"></span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </aside>
+         <!--
+            - #main-content
+            -->
+         <div class="main-content">
+            <!--
+               - #NAVBAR
+               -->
+            <nav class="navbar">
+               <ul class="navbar-list">
+                  <li class="navbar-item">
+                     <button class="navbar-link  active" data-nav-link>Home</button>
+                  </li>
+               </ul>
+            </nav>
+            <!--
+               - #ABOUT
+               -->
+            <article class="home  active" data-page="home">
+               <header>
+                  <h2 class="h2 article-title">About me</h2>
+               </header>
+               <section class="about-text">
+                  <h4 class="h4-text"> Aspiring student who dreams of being a professional in the field of technology, and procrastinator in his spare time.</h4>
+                  <p>
+                     > 17 years old.<br>
+		     > I'm a good writer.<br>
+		     > Skilled in OFFICE services<br>
+		     > I Hope to achieve fluency in English.<br>
+		     > Learning French on my own.
+                  </p>
+               </section>
+               <!--
+                  - service
+                  -->
+               <section class="service">
+                  <h3 class="h3 service-title">What i'm doing</h3>
+                  <ul class="service-list">
+                     <li class="service-item">
+                        <div class="service-icon-box">
+                           <img src="./assets/images/icon-photo.png" alt="Software development icon" width="40">
+                        </div>
+                        <div class="service-content-box">
+                           <h4 class="h4 service-item-title">iNTERESTED IN LEARNING</h4>
+                           <p class="service-item-text">
+			     I'm passionate about learning and teaching too, although I can't not be self-taught.</p>
+                        </div>
+                     </li>
+                     <li class="service-item">
+                        <div class="service-icon-box">
+                           <img src="./assets/images/icon-app.png" alt="Weeb development icon" width="40">
+                        </div>
+                        <div class="service-content-box">
+                           <h4 class="h4 service-item-title">DEVELOPER?</h4>
+                           <p class="service-item-text">
+			     Sometimes I do some cool projects like this site to pass the time. I hope you're enjoying it <3</p>
+                        </div>
+                     </li>
+                     <li class="service-item">
+                        <div class="service-icon-box">
+                           <img src="./assets/images/icon-dev.png" alt="Open source icon" width="40">
+                        </div>
+                        <div class="service-content-box">
+                           <h4 class="h4 service-item-title">I LOVE BOOKS</h4>
+                           <p class="service-item-text">
+			     Mostly philosophical!<br>Books and cats are as one to me :)</p>
+                        </div>
+                     </li>
+                     <li class="service-item">
+                        <div class="service-icon-box">
+                           <img src="./assets/images/icon-design.png" alt="Cats supremacy icon" width="40">
+                        </div>
+                        <div class="service-content-box">
+                           <h4 class="h4 service-item-title">PROGRAMMING? ALWAYS</h4>
+                           <p class="service-item-text">It's what i love to do ¯\_(ツ)_/¯ <br>On my way to get the CS bachelor's degree</p>
+                        </div>
+                     </li>
+                  </ul>
+               </section>
+            </article>
+         </div>
+      </main>
+      <!--
+         - custom js link
+         -->
+      <script src="./assets/js/script.js"></script>
+      <!--
+         - ionicon link
+         -->
+      <!-- <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> -->
+      <!-- <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> -->
+      <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+   </body>
+</html>
