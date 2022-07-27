@@ -656,8 +656,6 @@ li a .copy-element.active {
     animation: type .2s 4.75s steps(20, end) forwards;
 }
 .cursor3 {
-    background: #fff;
-    padding: -10px;
     -webkit-animation: blink 1s 8.5s infinite;
     -moz-animation: blink 1s 5.5s infinite;
     -o-animation: blink 1s 5.5s infinite;
