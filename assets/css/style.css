@@ -330,6 +330,15 @@ main {
   border-radius: 30px;
   overflow: hidden;
   box-shadow: var(--shadow-6);
+  transition: all .2s ease-in-out;
+}
+
+.avatar-box img {
+  transition: all .2s ease-in-out;
+}
+
+.avatar-box img:hover {
+    transform: scale(1.1) rotate(-10deg);
 }
 
 .info-content .name {
