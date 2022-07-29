@@ -331,11 +331,11 @@ main {
   border-radius: 30px;
   overflow: hidden;
   box-shadow: var(--shadow-6);
-  transition: all .2s ease-in-out;
+  transition: all .1s ease-in-out;
 }
 
 .avatar-box img {
-  transition: all .2s ease-in-out;
+  transition: var(--transition-1);
 }
 
 .avatar-box img:hover {
