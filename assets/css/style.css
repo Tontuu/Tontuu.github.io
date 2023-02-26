@@ -328,7 +328,7 @@ main {
 
 .avatar-box {
   border: solid hsl(220, 100%, 69%) 0.15em;
-  border-radius: 30px;
+  border-radius: 10px;
   overflow: hidden;
   box-shadow: var(--shadow-6);
   transition: all .1s ease-in-out;
@@ -336,10 +336,11 @@ main {
 
 .avatar-box img {
   transition: var(--transition-1);
+  transform: scale(1.1);
 }
 
 .avatar-box img:hover {
-    transform: scale(1.1) rotate(-10deg);
+    transform: scale(1.2) rotate(-10deg);
 }
 
 .info-content .name {
